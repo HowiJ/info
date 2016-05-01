@@ -1,0 +1,28 @@
+html {
+    overflow: hidden;
+    height: 100%;
+    body {
+        height: 100%;
+        background-size: 100% 100%;
+        .container {
+            padding-top: 5em;
+            .row {
+                .col-md-4 {
+                    #time {
+                        border: 1px solid rgba(149, 149, 149, 0.30);
+                        border-radius: 5px;
+                        background: rgba(213, 213, 213, 0.30);
+                        padding: 0em;
+                        padding-bottom: 0;
+                        text-align: center;
+                            color: white;
+                            font-size: 5em;
+                        p {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
